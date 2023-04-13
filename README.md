@@ -2,7 +2,7 @@
 
 Este é um aplicativo React Native para compartilhamento de caronas. O aplicativo permite que os usuários adicionem o destino desejado e o nome do passageiro para que outros usuários possam ver e fazer reservas.
 
-# INSTALAÇÃO
+# Instalação
 
 Para instalar o aplicativo, siga estas etapas:
 
@@ -11,7 +11,7 @@ Para instalar o aplicativo, siga estas etapas:
 3. Certifique-se de ter um ambiente de desenvolvimento configurado para executar aplicativos React Native no seu dispositivo móvel ou em um emulador.
 4. Execute o aplicativo usando o comando npm start ou yarn start.
 
-# USO
+# Uso
 
 Ao abrir o aplicativo, você verá uma tela com um campo para digitar o destino desejado. Digite o destino desejado e pressione a tecla "Enter" no teclado do dispositivo móvel. Em seguida, você verá um formulário para adicionar o nome do passageiro.
 
@@ -19,7 +19,7 @@ Digite o nome do passageiro e pressione o botão "+". O nome do passageiro e o d
 
 Se você quiser fazer uma reserva em um dos passageiros, clique no botão "Reservar" ao lado do nome do passageiro. Uma janela de confirmação aparecerá, mostrando o nome do passageiro e o destino selecionado.
 
-# CONTRIBUIÇÃO
+# Contribuição 
 
 Se você deseja contribuir para o projeto, por favor, siga as seguintes etapas:
 
@@ -29,6 +29,6 @@ Se você deseja contribuir para o projeto, por favor, siga as seguintes etapas:
 4. Envie suas alterações para o seu repositório com o comando git push origin nova-branch.
 5. Crie um pull request para a branch principal do repositório original.
 
-# LICENÇA
+# Licença 
 
 Este aplicativo é licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais informações.
