@@ -17,7 +17,7 @@ Ao abrir o aplicativo, você será direcionado para a tela de login. Insira suas
 
 # TELA DE LOGIN
 
-Na tela de login, insira seu nome de usuário e senha nos campos apropriados. Em seguida, clique no botão "Entrar" para acessar o aplicativo.
+Na tela de login, insira seu nome de usuário e senha nos campos apropriados. Em seguida, clique no botão "Login" para acessar o aplicativo.
 
 # TELA PRINCIPAL
 
