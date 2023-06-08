@@ -1,4 +1,4 @@
-# Compartilhamento de Caronas
+# SHARE GX: COMPARTILHAMENTO DE CARONAS
 
 Este é um aplicativo React Native para compartilhamento de caronas. O aplicativo permite que os usuários adicionem o destino desejado e o nome do passageiro para que outros usuários possam ver e fazer reservas.
 
@@ -6,18 +6,60 @@ Este é um aplicativo React Native para compartilhamento de caronas. O aplicativ
 
 Para instalar o aplicativo, siga estas etapas:
 
-1. Clone este repositório para o seu computador.
+1. Clone este repositório para o seu computador. git clone https://github.com/Gabrielxbc00/compartilhamento-de-caronas.git
 2. Instale as dependências do projeto usando o comando npm install ou yarn install.
 3. Certifique-se de ter um ambiente de desenvolvimento configurado para executar aplicativos React Native no seu dispositivo móvel ou em um emulador.
 4. Execute o aplicativo usando o comando npm start ou yarn start.
 
 # USO
 
-Ao abrir o aplicativo, você verá uma tela com um campo para digitar o destino desejado. Digite o destino desejado e pressione a tecla "Enter" no teclado do dispositivo móvel. Em seguida, você verá um formulário para adicionar o nome do passageiro.
+Ao abrir o aplicativo, você será direcionado para a tela de login. Insira suas credenciais de usuário para acessar a funcionalidade principal do aplicativo.
 
-Digite o nome do passageiro e pressione o botão "+". O nome do passageiro e o destino serão adicionados à lista de passageiros abaixo do formulário.
+# TELA DE LOGIN
 
-Se você quiser fazer uma reserva em um dos passageiros, clique no botão "Reservar" ao lado do nome do passageiro. Uma janela de confirmação aparecerá, mostrando o nome do passageiro e o destino selecionado.
+Na tela de login, insira seu nome de usuário e senha nos campos apropriados. Em seguida, clique no botão "Entrar" para acessar o aplicativo.
+
+# TELA PRINCIPAL
+
+Na tela principal, você verá uma lista de caronas disponíveis, com informações sobre o destino e o nome do passageiro. Você pode visualizar os detalhes de cada carona e fazer uma reserva.
+
+Para visualizar os detalhes de uma carona, clique no item da lista correspondente.
+Para fazer uma reserva em uma carona, clique no botão "Reservar" na tela de detalhes da carona.
+
+# TELA DE CONFIRMAÇÃO
+
+Após clicar no botão "Reservar", você será direcionado para a tela de confirmação. Nessa tela, você verá os detalhes da reserva, incluindo o nome do passageiro e o destino selecionado. Para confirmar a reserva, clique no botão "Confirmar".
+
+# BANCO DE DADOS 
+
+Para configurar o banco de dados e conectá-lo ao aplicativo, siga estas etapas:
+
+Certifique-se de ter o Docker instalado em seu sistema. Caso não tenha, você pode baixá-lo em [https://www.docker.com/get-started].
+
+Execute o seguinte comando para iniciar o contêiner do MySQL no Docker: docker run -d --name sharegx -e MYSQL_ROOT_PASSWORD=sua_senha_aqui -p 3306:3306 mysql
+
+Certifique-se de substituir sua_senha_aqui pela senha desejada para o usuário root do MySQL.
+
+Abra o Beekeeper Studio ou qualquer outro cliente MySQL de sua preferência.
+
+No Beekeeper Studio, clique em "New Connection".
+Preencha as seguintes informações:
+Connection Name: Caronas DB
+Host: 127.0.0.1
+Port: 3306
+Username: root
+Password: sua_senha_aqui (a mesma senha que você definiu no passo anterior)
+Clique em "Test Connection" para verificar se a conexão com o banco de dados está funcionando corretamente.
+Clique em "Save" para salvar a conexão.
+Agora, o banco de dados está configurado e pronto para ser utilizado pelo aplicativo.
+
+# DEPENDÊNCIAS
+
+Além do MySQL, este aplicativo requer a instalação do Docker e do Beekeeper Studio.
+
+Docker: [https://www.docker.com/get-started]
+Beekeeper Studio: [https://www.beekeeperstudio.io/]
+Certifique-se de ter essas dependências instaladas em seu sistema antes de prosseguir.
 
 # CONTRIBUIÇÃO
 
